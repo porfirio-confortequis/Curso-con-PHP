@@ -79,6 +79,9 @@ switch($dia){ #EL SWITCH es un metodo. Dentro del metodo SWITCH se coloca la var
         $n++; #Entonces que la variable $n la incremente
 
         echo $n; #Imprime con echo, la variable $n
+
+#La variable $n se va a incrementar hasta llegar a un valor menor que 5, la variable n$ comenzo en un valor de 1, eso es que lo se mostrará con echo en pantalla
+
 }
 
 
