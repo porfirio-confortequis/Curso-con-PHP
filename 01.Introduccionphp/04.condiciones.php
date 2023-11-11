@@ -103,7 +103,7 @@
 
 #CICLO FOR
     
-    for ($i = 0; $i <= 0; $i++){#La variable $i con valor que inicia en 0($i = 0), mientras la variable $i sea < o = a 5 ($i <= 0), entonces que la variable $i se incremente($i++)  
+    for ($i = 1; $i <= 5; $i++){#La variable $i con valor que inicia en 0($i = 0), mientras la variable $i sea < o = a 5 ($i <= 0), entonces que la variable $i se incremente($i++)  
         echo $i;
     }
 
