@@ -74,11 +74,10 @@ switch($dia){ #EL SWITCH es un metodo. Dentro del metodo SWITCH se coloca la var
 
     $n = 1;#Se declara la variable $n dandole el valor de 1
 
-    while($n < 5){ #Ciclo WHILE permite dar una condicion, dentro de parentesis mientras la varibale $n sea menor que 5 ($n < 5)
-
-        $n++; #Entonces que la variable $n la incremente
+    while($n <= 5){ #Ciclo WHILE permite dar una condicion, dentro de parentesis mientras la varibale $n sea menor o = que 5 ($n < 5)
 
         echo $n; #Imprime con echo, la variable $n
+        $n++; #Entonces que la variable $n la incremente
 
 #La variable $n se va a incrementar hasta llegar a un valor menor que 5, la variable n$ comenzo en un valor de 1, eso es que lo se mostrará con echo en pantalla
 
