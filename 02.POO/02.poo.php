@@ -19,7 +19,7 @@ class Automovil{ #SE CREA UNA CLASE AUTOMOVIL
     
     public function mostrar(){ # SE CREA EL MÉTODO public function mostrar. SE LE CONOCE COMO MÉTODO PORQUE ESTA DENTRO DE UNA CLASE, ESTO ES PARA LA POO
 
-        echo "<p>Hola! soy un $this->marca, $this->modelo </p>";
+        echo "<p>Hola! soy un $this->marca, $this->modelo </p>"; #
 
 
     }
